@@ -21,7 +21,7 @@ const About = () => {
         <div className="absolute inset-0 backdrop-saturate-200"></div>
       </div>
       <div className="relative w-full lg:h-full h-[160vh] bg-[url('/images/texture-1.jpeg')] bg-cover bg-center bg-no-repeat">
-        <div className="absolute inset-0 bg-white opacity-65"></div>
+        <div className="absolute inset-0 bg-white opacity-85"></div>
         <div className="absolute top-0 left-0 w-full h-full lg:p-16 p-10">
           <div className="w-full h-full flex flex-col justify-center items-center gap-1 text-center border border-border_color lg:px-20 px-14">
             <h1 className="text-[33.184px] leading-[46.4576px] font-galdeano mb-5">
