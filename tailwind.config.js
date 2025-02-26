@@ -19,6 +19,10 @@ module.exports = {
       fontFamily: {
         galdeano: ["Galdeano", "serif"],
       },
+      screens: {
+        "2lg": "1455px", // Example of a custom breakpoint
+        "3lg": "1165px",
+      },
     },
   },
   plugins: [],
