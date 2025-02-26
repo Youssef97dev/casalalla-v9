@@ -8,8 +8,16 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        text_color: "var(--text-color)",
+        border_color: "var(--border-color)",
+        white_color: "var(--white)",
+        bg_intro: "var(--bg-intro)",
+        bg_casa: "var(--bg-body)",
+        bg_contact: "var(--bg-contact)",
+        bg_navbar: "var(--bg-navbar)",
+      },
+      fontFamily: {
+        galdeano: ["Galdeano", "serif"],
       },
     },
   },
