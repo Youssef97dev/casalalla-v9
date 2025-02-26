@@ -1,12 +1,15 @@
+import About from "@/components/About";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="h-[300vh]">
+    <div className="w-full h-full">
       <Navbar />
       <Hero />
+      <About />
+      <div>test</div>
     </div>
   );
 }
