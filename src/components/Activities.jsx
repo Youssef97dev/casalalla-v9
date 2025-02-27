@@ -36,7 +36,7 @@ const Activities = () => {
           className="object-cover w-full h-full md:hidden block"
         />
         {/* Filter */}
-        <div className="absolute inset-0 backdrop-saturate-200"></div>
+        <div className="absolute inset-0 backdrop-saturate-150"></div>
       </div>
     </div>
   );
