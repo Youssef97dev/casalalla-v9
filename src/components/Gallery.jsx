@@ -26,11 +26,17 @@ const images = [
 ];
 
 const Gallery = () => {
-  const [isMobile, setIsMobile] = useState(false);
+  const [isMobile, setIsMobile] = useState("desktop");
   const [isClient, setIsClient] = useState(false);
   useEffect(() => {
     const handleResize = () => {
-      setIsMobile(window.innerWidth < 768);
+      setIsMobile(
+        window.innerWidth < 768
+          ? "mobile"
+          : window.innerWidth < 1024
+          ? "tab"
+          : "desktop"
+      );
     };
 
     handleResize(); // Check on load
@@ -47,9 +53,11 @@ const Gallery = () => {
     isClient && (
       <div className="relative w-full md:min-h-[75vh] min-h-[55vh] bg-[url('/images/casa_5.jpg')] bg-cover bg-center bg-no-repeat">
         <div className="absolute inset-0 bg-black opacity-60"></div>
-        <div className="absolute w-full h-full flex justify-center items-center px-5 md:px-32">
+        <div className="absolute w-full h-full flex justify-center items-center px-9 md:px-12 lg:px-32">
           <Swiper
-            slidesPerView={isMobile ? 2 : 3}
+            slidesPerView={
+              isMobile === "mobile" ? 1 : isMobile === "tab" ? 2 : 3
+            }
             spaceBetween={1}
             freeMode={true}
             modules={[FreeMode, Pagination, Navigation]}
@@ -65,12 +73,12 @@ const Gallery = () => {
                   src={image}
                   height={800}
                   width={800}
-                  className="object-cover w-48 h-48 md:w-[29rem] md:h-[29rem] rounded-md"
+                  className="object-cover w-80 h-80 md:w-[22rem] md:h-[22rem] lg:w-[29rem] lg:h-[29rem] rounded-md"
                 />
               </SwiperSlide>
             ))}
           </Swiper>
-          {!isMobile && (
+          {isMobile === "desktop" && (
             <>
               <button className="swiper-button-prev-ex1 grid place-content-center left-16 transition text-white absolute z-[999] top-1/2 -translate-y-1/2">
                 <MdOutlineArrowBackIos size={28} />
