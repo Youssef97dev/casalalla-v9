@@ -3,13 +3,13 @@ import Link from "next/link";
 
 const About = () => {
   return (
-    <div className="w-full md:h-[93vh] h-full flex md:flex-row flex-col">
+    <div className="w-full min-h-[85vh] flex md:flex-row flex-col">
       <div className="relative w-full">
         <Image
           src="/images/casa_8.jpg"
           height={1000}
           width={1000}
-          className="object-cover w-full xl:h-full 2lg:h-full 3lg:h-[170vh] md:h-[230vh] h-[160vh] md:block hidden"
+          className="object-cover w-full h-full md:block hidden"
         />
         <Image
           src="/images/casa_2.jpg"
@@ -20,10 +20,10 @@ const About = () => {
         {/* Filter */}
         <div className="absolute inset-0 backdrop-saturate-200"></div>
       </div>
-      <div className="relative w-full xl:h-full 2lg:h-full 3lg:h-[170vh] md:h-[230vh] h-[160vh] bg-[url('/images/texture-1.jpeg')] bg-cover bg-center bg-no-repeat">
-        <div className="absolute inset-0 bg-white opacity-95"></div>
-        <div className="absolute top-0 left-0 w-full h-full lg:p-16 p-10">
-          <div className="w-full h-full flex flex-col justify-center items-center gap-1 text-center border border-border_color lg:px-20 px-14">
+      <div className="relative w-full min-h-[85vh] bg-[url('/images/texture-1.jpeg')] bg-cover bg-center bg-no-repeat">
+        <div className="absolute inset-0 bg-white opacity-90"></div>
+        <div className="relative w-full p-10">
+          <div className="w-full h-full flex flex-col justify-center items-center gap-1 text-center border border-border_color lg:p-20 p-14">
             <h1 className="text-[33.184px] leading-[46.4576px] font-galdeano mb-5">
               Casa Lalla Takerkoust
             </h1>

@@ -1,15 +1,15 @@
 import About from "@/components/About";
+import Gallery from "@/components/Gallery";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
-import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="w-full h-full">
+    <div className="w-full flex flex-col">
       <Navbar />
       <Hero />
       <About />
-      <div>test</div>
+      <Gallery />
     </div>
   );
 }
