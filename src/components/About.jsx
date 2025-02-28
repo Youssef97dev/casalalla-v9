@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const About = () => {
   return (
-    <div className="w-full min-h-[85vh] flex md:flex-row flex-col">
+    <div id="about" className="w-full min-h-[85vh] flex md:flex-row flex-col">
       <div className="relative w-full">
         <Image
           src="https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/casalalla-v2/casa_5_t1kw35"

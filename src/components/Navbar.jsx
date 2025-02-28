@@ -47,7 +47,7 @@ const Navbar = () => {
 
           <div className="flex space-x-4 text-[15px] leading-[60px] uppercase font-galdeano">
             <a
-              href="#home"
+              href="#hero"
               className={`tracking-[0.3em]  ${
                 scrolling
                   ? "text-bg_intro hover:text-white_color"
@@ -77,26 +77,6 @@ const Navbar = () => {
               Galerie
             </a>
             <a
-              href="#contact"
-              className={`tracking-[0.3em]  ${
-                scrolling
-                  ? "text-bg_intro hover:text-white_color"
-                  : "text-gray-300 hover:text-white_color"
-              }`}
-            >
-              Contact
-            </a>
-            <a
-              href="#cuisin"
-              className={`tracking-[0.3em]  ${
-                scrolling
-                  ? "text-bg_intro hover:text-white_color"
-                  : "text-gray-300 hover:text-white_color"
-              }`}
-            >
-              Cuisine
-            </a>
-            <a
               href="#activities"
               className={`tracking-[0.3em]  ${
                 scrolling
@@ -105,6 +85,27 @@ const Navbar = () => {
               }`}
             >
               Activités
+            </a>
+            <a
+              href="/carte-casa-lalla-takerkoust.pdf"
+              target="_blank"
+              className={`tracking-[0.3em]  ${
+                scrolling
+                  ? "text-bg_intro hover:text-white_color"
+                  : "text-gray-300 hover:text-white_color"
+              }`}
+            >
+              Menu
+            </a>
+            <a
+              href="#contact"
+              className={`tracking-[0.3em]  ${
+                scrolling
+                  ? "text-bg_intro hover:text-white_color"
+                  : "text-gray-300 hover:text-white_color"
+              }`}
+            >
+              Contact
             </a>
           </div>
         </div>
@@ -149,27 +150,24 @@ const Navbar = () => {
                 className="space-y-8 text-bg_intro leading-[25px] text-[20px] mt-10 uppercase font-light"
               >
                 <li className="pb-3 border-b border-bg_navbar">
-                  <Link href="#">Home</Link>
+                  <Link href="#hero">Home</Link>
                 </li>
                 <li className="pb-3 border-b border-bg_navbar">
-                  <Link href="#">A Propos</Link>
+                  <Link href="#about">A Propos</Link>
                 </li>
                 <li className="pb-3 border-b border-bg_navbar">
-                  <Link href="#">Galerie</Link>
+                  <Link href="#gallery">Galerie</Link>
                 </li>
                 <li className="pb-3 border-b border-bg_navbar">
-                  <Link href="#">Contact</Link>
+                  <Link href="#activities">Activité</Link>
                 </li>
                 <li className="pb-3 border-b border-bg_navbar">
-                  <Link href="#">Cuisine</Link>
-                </li>
-                <li className="pb-3 border-b border-bg_navbar">
-                  <Link href="#">Activité</Link>
-                </li>
-                <li className="pb-3 border-b border-bg_navbar">
-                  <Link href="#" target="_blank">
+                  <Link href="/carte-casa-lalla-takerkoust.pdf" target="_blank">
                     Menu
                   </Link>
+                </li>
+                <li className="pb-3 border-b border-bg_navbar">
+                  <Link href="#contact">Contact</Link>
                 </li>
               </ul>
             </div>

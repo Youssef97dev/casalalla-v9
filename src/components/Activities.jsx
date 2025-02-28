@@ -4,7 +4,10 @@ import Accordion from "./Accordion";
 
 const Activities = () => {
   return (
-    <div className="w-full min-h-[85vh] flex md:flex-row flex-col-reverse">
+    <div
+      id="activities"
+      className="w-full min-h-[85vh] flex md:flex-row flex-col-reverse"
+    >
       <div className="relative w-full min-h-[85vh] bg-[url('/images/texture-1.jpeg')] bg-cover bg-center bg-no-repeat">
         <div className="absolute inset-0 bg-white opacity-90"></div>
         <div className="relative w-full p-10">

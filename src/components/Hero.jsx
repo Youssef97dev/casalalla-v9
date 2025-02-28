@@ -47,7 +47,7 @@ const Hero = () => {
 
   return (
     isClient && (
-      <div className="relative h-screen bg-black">
+      <div id="hero" className="relative h-screen bg-black">
         {/* Images for Desktop */}
         {!isMobile &&
           images.map((src, index) => (
@@ -91,7 +91,7 @@ const Hero = () => {
 
         {/* Scroll Down Arrow */}
         <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 text-white">
-          <a href="#">
+          <a href="#about">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-10 w-10 animate-bounce"

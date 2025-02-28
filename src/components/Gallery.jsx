@@ -56,7 +56,10 @@ const Gallery = () => {
 
   return (
     isClient && (
-      <div className="relative w-full md:min-h-[75vh] min-h-[55vh] bg-[url('https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/casalalla-v2/p0tmas5drbxexrnxffzo')] bg-cover bg-center bg-no-repeat">
+      <div
+        id="gallery"
+        className="relative w-full md:min-h-[75vh] min-h-[55vh] bg-[url('https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/casalalla-v2/p0tmas5drbxexrnxffzo')] bg-cover bg-center bg-no-repeat"
+      >
         <div className="absolute inset-0 bg-black opacity-60"></div>
         <div className="absolute w-full h-full flex justify-center items-center px-9 md:px-12 lg:px-32">
           <Swiper
