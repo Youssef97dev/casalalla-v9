@@ -135,7 +135,7 @@ const Gallery = () => {
                     height={800}
                     loading="lazy"
                     className="object-cover w-80 h-80 md:w-[22rem] md:h-[22rem] lg:w-[29rem] lg:h-[29rem] rounded-md"
-                    alt={`Casa lalla takerkoust ${index}`}
+                    alt={`Casa lalla htakerkoust ${index}`}
                   />
                 </Link>
               </SwiperSlide>
