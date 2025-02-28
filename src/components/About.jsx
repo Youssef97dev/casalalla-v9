@@ -6,19 +6,19 @@ const About = () => {
     <div className="w-full min-h-[85vh] flex md:flex-row flex-col">
       <div className="relative w-full">
         <Image
-          src="/images/casa_8.jpg"
+          src="https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/casalalla-v2/casa_5_t1kw35"
           height={1000}
           width={1000}
           className="object-cover w-full h-full md:block hidden"
         />
         <Image
-          src="/images/casa_2.jpg"
+          src="https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/casalalla-v2/xym2qzij46sg5jaq0cto"
           height={1000}
           width={1000}
           className="object-cover w-full h-full md:hidden block"
         />
         {/* Filter */}
-        <div className="absolute inset-0 backdrop-saturate-200"></div>
+        <div className="absolute inset-0 backdrop-saturate-150 backdrop-contrast-125 backdrop-brightness-90"></div>
       </div>
       <div className="relative w-full min-h-[85vh] bg-[url('/images/texture-1.jpeg')] bg-cover bg-center bg-no-repeat">
         <div className="absolute inset-0 bg-white opacity-90"></div>

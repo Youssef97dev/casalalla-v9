@@ -17,12 +17,17 @@ import "swiper/css/pagination";
 import { FreeMode, Pagination, Navigation } from "swiper/modules";
 
 const images = [
-  "/images/casa_1.jpg",
-  "/images/casa_2.jpg",
-  "/images/casa_3.jpg",
-  "/images/casa_10.jpg",
-  "/images/casa_11.jpg",
-  "/images/casa_12.jpg",
+  "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/casalalla-v2/casa_8_crsxvk",
+  "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/casalalla-v2/yntqxtyrr6twlbnk7fma",
+  "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/casalalla-v2/j29rwwjluxdhjs1sdufo",
+  "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/casalalla-v2/aeuldjydltg3zgisujem",
+  "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/casalalla-v2/akkjaul1qfiskaqrg507",
+  "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/casalalla-v2/x7ugtlvtbdmnttlimlpg",
+  "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/casalalla-v2/pmztmaraj71g4g4xicbe",
+  "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/casalalla-v2/ygvykfxjvir2dtkfdiie",
+  "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/casalalla-v2/pjdoqvpfbeuldq96mewg",
+  "https://res.cloudinary.com/dz7wroord/image/upload/c_crop,g_south,h_4240,w_4160/casalalla-v2/nczsxh4f2gndgy2h6uqt",
+  "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/casalalla-v2/casa_11_lkfatp",
 ];
 
 const Gallery = () => {
@@ -51,7 +56,7 @@ const Gallery = () => {
 
   return (
     isClient && (
-      <div className="relative w-full md:min-h-[75vh] min-h-[55vh] bg-[url('/images/casa_5.jpg')] bg-cover bg-center bg-no-repeat">
+      <div className="relative w-full md:min-h-[75vh] min-h-[55vh] bg-[url('https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/casalalla-v2/p0tmas5drbxexrnxffzo')] bg-cover bg-center bg-no-repeat">
         <div className="absolute inset-0 bg-black opacity-60"></div>
         <div className="absolute w-full h-full flex justify-center items-center px-9 md:px-12 lg:px-32">
           <Swiper

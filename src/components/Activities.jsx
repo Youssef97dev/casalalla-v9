@@ -24,19 +24,19 @@ const Activities = () => {
       </div>
       <div className="relative w-full">
         <Image
-          src="/images/casa_7.jpg"
+          src="https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/casa%20Lalla/L-167_uhoybh"
           height={1000}
           width={1000}
           className="object-cover w-full h-full md:block hidden"
         />
         <Image
-          src="/images/casa_13.jpg"
+          src="https://res.cloudinary.com/dz7wroord/image/upload/c_crop,g_south,h_4700,w_3631/casalalla-v2/akkjaul1qfiskaqrg507"
           height={1000}
-          width={1000}
+          width={500}
           className="object-cover w-full h-full md:hidden block"
         />
         {/* Filter */}
-        <div className="absolute inset-0 backdrop-brightness-125"></div>
+        <div className="absolute inset-0 backdrop-saturate-150 backdrop-contrast-125 backdrop-brightness-90"></div>
       </div>
     </div>
   );

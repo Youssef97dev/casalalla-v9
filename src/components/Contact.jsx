@@ -12,19 +12,19 @@ const Contact = () => {
     <div className="w-full min-h-[60vh] flex md:flex-row flex-col">
       <div className="relative w-full">
         <Image
-          src="/images/casa_12.jpg"
+          src="https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/casalalla-v2/yntqxtyrr6twlbnk7fma"
           height={1000}
           width={1000}
           className="object-cover w-full h-full md:block hidden"
         />
         <Image
-          src="/images/casa_1.jpg"
+          src="https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/casalalla-v2/lhb2mbtjxmjl5p8jxycr"
           height={1000}
           width={1000}
           className="object-cover w-full h-full md:hidden block"
         />
         {/* Filter */}
-        <div className="absolute inset-0 backdrop-saturate-200"></div>
+        <div className="absolute inset-0 backdrop-saturate-150 backdrop-contrast-125 backdrop-brightness-90"></div>
       </div>
       <div className="w-full min-h-[60vh]">
         <div className="w-full p-5 lg:p-10">

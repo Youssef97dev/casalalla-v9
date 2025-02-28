@@ -4,17 +4,17 @@ import Image from "next/image";
 import Link from "next/link";
 
 const images = [
-  "/images/casa_10.jpg",
-  "/images/casa_11.jpg",
-  "/images/casa_12.jpg",
-  "/images/casa_9.jpg",
+  "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/casalalla-v2/casa_7_walijv",
+  "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/casalalla-v2/b2ungbcdzn3ogn0q9wph",
+  "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/casalalla-v2/casa_9_wkt43z",
+  "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/casalalla-v2/casa_10_nogxaq",
 ];
 
 const imagesMobile = [
-  "/images/casa_1.jpg",
-  "/images/casa_2.jpg",
-  "/images/casa_3.jpg",
-  "/images/casa_4.jpg",
+  "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/casalalla-v2/casa_13_a8ozgg",
+  "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/casalalla-v2/casa_4_oo2oim",
+  "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/casalalla-v2/wq4bfswckuo0ebocpfhi",
+  "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/casalalla-v2/rx3mzjhhegeuvtkiszdt",
 ];
 
 const Hero = () => {
@@ -87,7 +87,7 @@ const Hero = () => {
           ))}
 
         {/* Filter */}
-        <div className="absolute inset-0 bg-black bg-opacity-40 backdrop-saturate-150"></div>
+        <div className="absolute inset-0 bg-black bg-opacity-30 backdrop-saturate-150"></div>
 
         {/* Scroll Down Arrow */}
         <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 text-white">
