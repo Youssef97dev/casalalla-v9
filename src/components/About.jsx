@@ -31,7 +31,7 @@ const About = () => {
             <p className="text-[13px] leading-[30px] uppercase">{`À seulement 30 minutes de Marrakech, laissez-vous porter par des rythmes enivrants venus des quatre coins du monde et savourez une cuisine méditerranéenne raffinée, pensée pour être partagée entre amis, anciens et nouveaux.`}</p>
             <p className="text-[13px] leading-[30px] uppercase">{`Plus qu’un simple restaurant, Casa Lalla Takerkoust est une parenthèse enchantée, où le luxe authentique se mêle à la beauté naturelle du paysage, à la chaleur des rencontres et à une énergie vibrante. Ici, chaque instant est une célébration de la vie.`}</p>
             <Link
-              href="#"
+              href="/booking"
               className="text-[12px] leading-[16.8px] tracking-widest mt-8 px-14 py-4 bg-transparent hover:bg-border_color hover:text-white  border border-border_color uppercase rounded-md transition-all duration-300"
             >
               Reserver

@@ -112,7 +112,7 @@ const Hero = () => {
         {/* Booking Button */}
         <div className="absolute bottom-32 left-1/2 transform -translate-x-1/2">
           <Link
-            href="#"
+            href="/booking"
             className="text-[12px] leading-[16.8px] px-10 py-4 bg-transparent hover:bg-white text-white hover:text-text_color shadow-lg border border-white uppercase transition-all duration-300"
           >
             R e s e r v e r

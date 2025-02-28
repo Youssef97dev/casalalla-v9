@@ -65,6 +65,12 @@
   --bg-body: #f5f6f1;
   --bg-contact: #f2d8bd;
   --bg-navbar: #dce2e3;
+
+  --carte-btn: #fefcfd;
+  --book-btn-1: #c20022;
+  --book-btn-2: #111111;
+  --text-color: #1a1a1a;
+  --bg-color: #ffffff;
 }
 
 html {
