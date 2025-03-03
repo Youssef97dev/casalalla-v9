@@ -6,7 +6,7 @@ import Mapbox from "./components/Mapbox";
 
 const page = () => {
   return (
-    <div className="bg-bg_navbar w-full h-full flex flex-col justify-start items-center">
+    <div className="bg-bg_casa w-full h-full flex flex-col justify-start items-center">
       <Navbar />
       <Content />
       <FormMessage />
