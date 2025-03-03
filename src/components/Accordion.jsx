@@ -2,9 +2,11 @@
 import AnimateHeight from "react-animate-height";
 import { useState } from "react";
 import { AiOutlinePlus, AiOutlineMinus } from "react-icons/ai";
+import { useTranslation } from "react-i18next";
 
 const Accordion = () => {
   const [active, setActive] = useState("1");
+  const { t } = useTranslation();
 
   const togglePara = (value) => {
     setActive((oldValue) => {
@@ -20,7 +22,7 @@ const Accordion = () => {
             className={`py-4 w-full flex items-center text-[13px] leading-[30px] uppercase`}
             onClick={() => togglePara("1")}
           >
-            Transport
+            {t("activities.title_1")}
             <div className={`ml-auto`}>
               {active === "1" ? (
                 <AiOutlineMinus size={22} />
@@ -32,7 +34,7 @@ const Accordion = () => {
           <div>
             <AnimateHeight duration={300} height={active === "1" ? "auto" : 0}>
               <div className="space-y-2 p-4 text-[13px] leading-[30px] border-t border-[#d3d3d3]">
-                <p>Lalla Takerkoust est accessible en taxi ou en bus.</p>
+                <p>{t("activities.trans_desc")}</p>
               </div>
             </AnimateHeight>
           </div>
@@ -56,19 +58,19 @@ const Accordion = () => {
           <div>
             <AnimateHeight duration={300} height={active === "2" ? "auto" : 0}>
               <div className="space-y-2 p-4 text-[13px] leading-[30px] border-t border-[#d3d3d3]">
-                <p>{`Satisfaites votre besoin de vitesse et d'aventure avec un tour en quad autour de Lalla Takerkoust et admirez des paysages à couper le souffle. Des guides expérimentés vous emmèneront hors des sentiers battus, au pied des montagnes du Haut Atlas.`}</p>
+                <p>{t("activities.quad_desc")}</p>
                 <p>
-                  {`Quad simple 1 heure 300dh`}
+                  {t("activities.quad_desc_1")}
                   <br />
-                  {`Quad Double 1 Heure 500dh`}
+                  {t("activities.quad_desc_2")}
                   <br />
-                  {`Quad Simple 2 Heures 500dh`}
+                  {t("activities.quad_desc_3")}
                   <br />
-                  {`Quad Double 2 Heures 800dh`}
+                  {t("activities.quad_desc_4")}
                   <br />
-                  {`Buggy 2 places 1 Heure 800dh`}
+                  {t("activities.quad_desc_5")}
                   <br />
-                  {`Buggy 2 Places 2 Heures 1400dh`}
+                  {t("activities.quad_desc_6")}
                 </p>
               </div>
             </AnimateHeight>
@@ -93,8 +95,8 @@ const Accordion = () => {
           <div>
             <AnimateHeight duration={300} height={active === "3" ? "auto" : 0}>
               <div className="space-y-2 p-4 text-[13px] leading-[30px] border-t border-[#d3d3d3]">
-                <p>{`Faites battre votre cœur avec une aventure en jet ski en glissant sur le pittoresque lac de Lalla Takerkoust et en profitant d'une vue imprenable sur les montagnes enneigées du Haut Atlas.`}</p>
-                <p>{`400dh pendant 15 minutes`}</p>
+                <p>{t("activities.jetski_desc")}</p>
+                <p>{t("activities.jetski_desc_1")}</p>
               </div>
             </AnimateHeight>
           </div>
@@ -106,7 +108,7 @@ const Accordion = () => {
             className={`py-4 w-full flex items-center text-[13px] leading-[30px] uppercase`}
             onClick={() => togglePara("4")}
           >
-            {`Promenade dans la nature / Hike`}
+            {t("activities.title_4")}
             <div className={`ml-auto`}>
               {active === "4" ? (
                 <AiOutlineMinus size={22} />
@@ -118,7 +120,7 @@ const Accordion = () => {
           <div>
             <AnimateHeight duration={300} height={active === "4" ? "auto" : 0}>
               <div className="space-y-2 p-4 text-[13px] leading-[30px] border-t border-[#d3d3d3]">
-                <p>{`Explorez les eaux sereines de Lalla Takerkoust à pied avec un guide expert et découvrez la flore et la faune vibrantes qui se trouvent dans ce paysage diversifié. Vous pouvez choisir une promenade tranquille dans la nature ou vous aventurer dans les collines environnantes pour une randonnée plus rigoureuse. Parfait pour les ornithologues et les amateurs de photographie, cet environnement paisible promet un répit dans la vie trépidante de Marrakech.`}</p>
+                <p>{t("activities.hike_desc")}</p>
               </div>
             </AnimateHeight>
           </div>
@@ -130,7 +132,7 @@ const Accordion = () => {
             className={`py-4 w-full flex items-center text-[13px] leading-[30px] uppercase`}
             onClick={() => togglePara("5")}
           >
-            {`Équitation`}
+            {t("activities.title_5")}
             <div className={`ml-auto`}>
               {active === "5" ? (
                 <AiOutlineMinus size={22} />
@@ -142,7 +144,7 @@ const Accordion = () => {
           <div>
             <AnimateHeight duration={300} height={active === "5" ? "auto" : 0}>
               <div className="space-y-2 p-4 text-[13px] leading-[30px] border-t border-[#d3d3d3]">
-                <p>{`Expérimentez la magie de la randonnée à cheval autour du lac étincelant de Lalla Takerkoust et découvrez des paysages variés en voyageant hors des sentiers battus autour du lac, des contreforts des montagnes du Haut Atlas et du désert de pierre voisin d'Agafay.`}</p>
+                <p>{t("activities.riding_desc")}</p>
               </div>
             </AnimateHeight>
           </div>
@@ -154,7 +156,7 @@ const Accordion = () => {
             className={`py-4 w-full flex items-center text-[13px] leading-[30px] uppercase`}
             onClick={() => togglePara("6")}
           >
-            {`Désert d'Agafay`}
+            {t("activities.title_6")}
             <div className={`ml-auto`}>
               {active === "6" ? (
                 <AiOutlineMinus size={22} />
@@ -166,8 +168,8 @@ const Accordion = () => {
           <div>
             <AnimateHeight duration={300} height={active === "6" ? "auto" : 0}>
               <div className="space-y-2 p-4 text-[13px] leading-[30px] border-t border-[#d3d3d3]">
-                <p>{`Découvrez le désert rocailleux d'Agafay et comprenez pourquoi c'est l'un des terrains de jeu préférés des Marocains. Vivez vos rêves de désert de dunes et explorez-le en quad, en buggy ou à dos de chameau.`}</p>
-                <p>{`Les activités ne manquent pas dans le désert d'Agafay, situé à seulement 5 minutes de Lalla Takerkoust.`}</p>
+                <p>{t("activities.agafay_desc_1")}</p>
+                <p>{t("activities.agafay_desc_2")}</p>
               </div>
             </AnimateHeight>
           </div>
@@ -179,7 +181,7 @@ const Accordion = () => {
             className={`py-4 w-full flex items-center text-[13.5px] uppercase`}
             onClick={() => togglePara("7")}
           >
-            {`Excursion à vélo`}
+            {t("activities.title_7")}
             <div className={`ml-auto`}>
               {active === "7" ? (
                 <AiOutlineMinus size={22} />
@@ -191,7 +193,7 @@ const Accordion = () => {
           <div>
             <AnimateHeight duration={300} height={active === "7" ? "auto" : 0}>
               <div className="space-y-2 p-4 text-white-dark text-[13px] leading-[30px] border-t border-[#d3d3d3]">
-                <p>{`Explorez Lalla Takerkoust lors d'une randonnée à vélo revigorante à travers le désert d'Agafay, puis arrivez à l'oasis que constituent les eaux cristallines du lac Lalla Takerkoust et les montagnes enneigées du Haut Atlas qui l'entourent. Préparez-vous à une randonnée hors du temps qui vous laissera des souvenirs inoubliables !`}</p>
+                <p>{t("activities.bike_desc")}</p>
               </div>
             </AnimateHeight>
           </div>

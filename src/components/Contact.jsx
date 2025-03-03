@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
 import {
@@ -6,8 +7,10 @@ import {
   FaMailBulk,
   FaDivide,
 } from "react-icons/fa";
+import { useTranslation } from "react-i18next";
 
 const Contact = () => {
+  const { t } = useTranslation();
   return (
     <div id="contact" className="w-full min-h-[60vh] flex md:flex-row flex-col">
       <div className="relative w-full">
@@ -34,8 +37,12 @@ const Contact = () => {
               alt="Logo Casa lalla"
               className={`w-44 h-44`}
             />
-            <p className="text-[13px] leading-[30px] uppercase">{`Le restaurant Casa Lalla Takerkoust`}</p>
-            <p className="text-[13px] leading-[30px] uppercase">{`ouvert tous les jours de 13h à 15h30`}</p>
+            <p className="text-[13px] leading-[30px] uppercase">
+              {t("contact.title")}
+            </p>
+            <p className="text-[13px] leading-[30px] uppercase">
+              {t("contact.open")}
+            </p>
             <div className="text-[13px] leading-[30px] uppercase flex justify-center items-center gap-2">
               <span>Email : </span>
               <Link href="#">{`reservations@casalallatakerkoust.com`}</Link>

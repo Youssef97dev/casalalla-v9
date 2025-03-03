@@ -1,0 +1,54 @@
+{
+  "navbar": {
+    "home": "Accueil",
+    "about": "À propos",
+    "gallery": "Galerie",
+    "events": "Événements",
+    "activities": "Activités"
+  },
+  "hero": {
+    "book": "Réserver"
+  },
+  "about": {
+    "content_1": "Le restaurant Casa Lalla Takerkoust est une véritable invitation au voyage, où l’esprit envoûtant de Mykonos, Ibiza et des îles Baléares rencontre la sérénité des eaux cristallines de Lalla Takerkoust et le décor majestueux des montagnes du Haut Atlas.",
+    "content_2": "À seulement 30 minutes de Marrakech, laissez-vous porter par des rythmes enivrants venus des quatre coins du monde et savourez une cuisine méditerranéenne raffinée, pensée pour être partagée entre amis, anciens et nouveaux.",
+    "content_3": "Plus qu’un simple restaurant, Casa Lalla Takerkoust est une parenthèse enchantée, où le luxe authentique se mêle à la beauté naturelle du paysage, à la chaleur des rencontres et à une énergie vibrante. Ici, chaque instant est une célébration de la vie."
+  },
+  "activities": {
+    "title": "Expérience Casa Lalla Takerkoust",
+    "title_1": "Transport",
+    "title_4": "Promenade dans la nature / Hike",
+    "title_5": "Équitation",
+    "title_6": "Désert d'Agafay",
+    "title_7": "Excursion à vélo",
+    "trans_desc": "Lalla Takerkoust est accessible en taxi ou en bus.",
+    "quad_desc": "Satisfaites votre besoin de vitesse et d'aventure avec un tour en quad autour de Lalla Takerkoust et admirez des paysages à couper le souffle. Des guides expérimentés vous emmèneront hors des sentiers battus, au pied des montagnes du Haut Atlas.",
+    "quad_desc_1": "Quad simple 1 heure 300dh",
+    "quad_desc_2": "Quad Double 1 Heure 500dh",
+    "quad_desc_3": "Quad Simple 2 Heures 500dh",
+    "quad_desc_4": "Quad Double 2 Heures 800dh",
+    "quad_desc_5": "Buggy 2 places 1 Heure 800dh",
+    "quad_desc_6": "Buggy 2 Places 2 Heures 1400dh",
+    "jetski_desc": "Faites battre votre cœur avec une aventure en jet ski en glissant sur le pittoresque lac de Lalla Takerkoust et en profitant d'une vue imprenable sur les montagnes enneigées du Haut Atlas.",
+    "jetski_desc_1": "400dh pendant 15 minutes",
+    "hike_desc": "Explorez les eaux sereines de Lalla Takerkoust à pied avec un guide expert et découvrez la flore et la faune vibrantes qui se trouvent dans ce paysage diversifié. Vous pouvez choisir une promenade tranquille dans la nature ou vous aventurer dans les collines environnantes pour une randonnée plus rigoureuse. Parfait pour les ornithologues et les amateurs de photographie, cet environnement paisible promet un répit dans la vie trépidante de Marrakech.",
+    "riding_desc": "Expérimentez la magie de la randonnée à cheval autour du lac étincelant de Lalla Takerkoust et découvrez des paysages variés en voyageant hors des sentiers battus autour du lac, des contreforts des montagnes du Haut Atlas et du désert de pierre voisin d'Agafay.",
+    "agafay_desc_1": "Découvrez le désert rocailleux d'Agafay et comprenez pourquoi c'est l'un des terrains de jeu préférés des Marocains. Vivez vos rêves de désert de dunes et explorez-le en quad, en buggy ou à dos de chameau.",
+    "agafay_desc_2": "Les activités ne manquent pas dans le désert d'Agafay, situé à seulement 5 minutes de Lalla Takerkoust.",
+    "bike_desc": "Explorez Lalla Takerkoust lors d'une randonnée à vélo revigorante à travers le désert d'Agafay, puis arrivez à l'oasis que constituent les eaux cristallines du lac Lalla Takerkoust et les montagnes enneigées du Haut Atlas qui l'entourent. Préparez-vous à une randonnée hors du temps qui vous laissera des souvenirs inoubliables !",
+    "book_experience": "Réserver une expérience"
+  },
+  "contact": {
+    "title": "Le Restaurant Casa lalla takerkoust",
+    "open": "Ouvert Tous les jours de 13H à 15H30",
+    "title_2": "Contactez-nous",
+    "subtitle": "Pour les rassemblements, les célébrations spéciales, les séances photos ou pour plus d'informations sur nous, veuillez nous envoyer un message en utilisant le formulaire de contact ci-dessous.",
+    "span": "Pour nous envoyer un courriel :",
+    "firstname": "Prénom",
+    "lastname": "Nom",
+    "email": "E-mail",
+    "subject": "Sujet",
+    "submit": "Envoyer"
+  },
+  "link_menu": "/carte-casa-lalla-takerkoust.pdf"
+}

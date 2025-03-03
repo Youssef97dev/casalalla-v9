@@ -2,6 +2,7 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { useTranslation } from "react-i18next";
 
 const images = [
   "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/casalalla-v2/casa_8_crsxvk",
@@ -21,6 +22,7 @@ const Hero = () => {
   const [isMobile, setIsMobile] = useState(false);
   const [isClient, setIsClient] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
+  const { t } = useTranslation();
 
   useEffect(() => {
     const handleResize = () => {
@@ -113,9 +115,9 @@ const Hero = () => {
         <div className="absolute bottom-32 left-1/2 transform -translate-x-1/2">
           <Link
             href="/booking"
-            className="text-[12px] leading-[16.8px] px-10 py-4 bg-transparent hover:bg-white text-white hover:text-text_color shadow-lg border border-white uppercase transition-all duration-300"
+            className="text-[12px] leading-[16.8px] tracking-widest px-10 py-4 bg-transparent hover:bg-white text-white hover:text-text_color shadow-lg border border-white uppercase transition-all duration-300"
           >
-            R e s e r v e r
+            {t("hero.book")}
           </Link>
         </div>
       </div>

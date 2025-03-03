@@ -2,11 +2,13 @@
 import { useState, useEffect } from "react";
 import { Transition } from "@headlessui/react";
 import Link from "next/link";
+import { useTranslation } from "react-i18next";
 
 const Navbar = () => {
   const [scrolling, setScrolling] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
   const [isClient, setIsClient] = useState(false);
+  const { t } = useTranslation();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -54,7 +56,7 @@ const Navbar = () => {
                   : "text-gray-300 hover:text-white_color"
               }`}
             >
-              Home
+              {t("navbar.home")}
             </a>
             <a
               href="#about"
@@ -64,7 +66,7 @@ const Navbar = () => {
                   : "text-gray-300 hover:text-white_color"
               }`}
             >
-              A Propos
+              {t("navbar.about")}
             </a>
             <a
               href="#gallery"
@@ -74,7 +76,7 @@ const Navbar = () => {
                   : "text-gray-300 hover:text-white_color"
               }`}
             >
-              Galerie
+              {t("navbar.gallery")}
             </a>
             <a
               href="#activities"
@@ -84,10 +86,10 @@ const Navbar = () => {
                   : "text-gray-300 hover:text-white_color"
               }`}
             >
-              Activités
+              {t("navbar.activities")}
             </a>
             <a
-              href="/carte-casa-lalla-takerkoust.pdf"
+              href={`${t("link_menu")}`}
               target="_blank"
               className={`tracking-[0.3em]  ${
                 scrolling
@@ -150,19 +152,19 @@ const Navbar = () => {
                 className="space-y-8 text-bg_intro leading-[25px] text-[20px] mt-10 uppercase font-light"
               >
                 <li className="pb-3 border-b border-bg_navbar">
-                  <Link href="#hero">Home</Link>
+                  <Link href="#hero">{t("navbar.home")}</Link>
                 </li>
                 <li className="pb-3 border-b border-bg_navbar">
-                  <Link href="#about">A Propos</Link>
+                  <Link href="#about">{t("navbar.about")}</Link>
                 </li>
                 <li className="pb-3 border-b border-bg_navbar">
-                  <Link href="#gallery">Galerie</Link>
+                  <Link href="#gallery">{t("navbar.gallery")}</Link>
                 </li>
                 <li className="pb-3 border-b border-bg_navbar">
-                  <Link href="#activities">Activité</Link>
+                  <Link href="#activities">{t("navbar.activities")}</Link>
                 </li>
                 <li className="pb-3 border-b border-bg_navbar">
-                  <Link href="/carte-casa-lalla-takerkoust.pdf" target="_blank">
+                  <Link href={`${t("link_menu")}`} target="_blank">
                     Menu
                   </Link>
                 </li>

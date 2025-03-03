@@ -1,8 +1,11 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
 import Accordion from "./Accordion";
+import { useTranslation } from "react-i18next";
 
 const Activities = () => {
+  const { t } = useTranslation();
   return (
     <div
       id="activities"
@@ -13,14 +16,14 @@ const Activities = () => {
         <div className="relative w-full p-10">
           <div className="w-full h-full flex flex-col justify-center items-center gap-1 text-center border border-border_color lg:p-20 p-8">
             <h1 className="text-[33.184px] leading-[46.4576px] font-galdeano mb-5">
-              Expérience Casa Lalla Takerkoust
+              {t("activities.title")}
             </h1>
             <Accordion />
             <Link
               href="/custom-booking"
               className="text-[12px] leading-[16.8px] tracking-widest mt-8 px-14 py-4 bg-transparent hover:bg-border_color hover:text-white  border border-border_color uppercase rounded-md transition-all duration-300"
             >
-              Réserver une Expérience
+              {t("activities.book_experience")}
             </Link>
           </div>
         </div>

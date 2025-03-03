@@ -1,7 +1,10 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
+import { useTranslation } from "react-i18next";
 
 const About = () => {
+  const { t } = useTranslation();
   return (
     <div id="about" className="w-full min-h-[85vh] flex md:flex-row flex-col">
       <div className="relative w-full">
@@ -27,14 +30,20 @@ const About = () => {
             <h1 className="text-[33.184px] leading-[46.4576px] font-galdeano mb-5">
               Casa Lalla Takerkoust
             </h1>
-            <p className="text-[13px] leading-[30px] uppercase">{`Le restaurant Casa Lalla Takerkoust est une véritable invitation au voyage, où l’esprit envoûtant de Mykonos, Ibiza et des îles Baléares rencontre la sérénité des eaux cristallines de Lalla Takerkoust et le décor majestueux des montagnes du Haut Atlas.`}</p>
-            <p className="text-[13px] leading-[30px] uppercase">{`À seulement 30 minutes de Marrakech, laissez-vous porter par des rythmes enivrants venus des quatre coins du monde et savourez une cuisine méditerranéenne raffinée, pensée pour être partagée entre amis, anciens et nouveaux.`}</p>
-            <p className="text-[13px] leading-[30px] uppercase">{`Plus qu’un simple restaurant, Casa Lalla Takerkoust est une parenthèse enchantée, où le luxe authentique se mêle à la beauté naturelle du paysage, à la chaleur des rencontres et à une énergie vibrante. Ici, chaque instant est une célébration de la vie.`}</p>
+            <p className="text-[13px] leading-[30px] uppercase">
+              {t("about.content_1")}
+            </p>
+            <p className="text-[13px] leading-[30px] uppercase">
+              {t("about.content_2")}
+            </p>
+            <p className="text-[13px] leading-[30px] uppercase">
+              {t("about.content_3")}
+            </p>
             <Link
               href="/booking"
               className="text-[12px] leading-[16.8px] tracking-widest mt-8 px-14 py-4 bg-transparent hover:bg-border_color hover:text-white  border border-border_color uppercase rounded-md transition-all duration-300"
             >
-              Reserver
+              {t("hero.book")}
             </Link>
           </div>
         </div>

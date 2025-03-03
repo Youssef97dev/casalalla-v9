@@ -1,8 +1,10 @@
 "use client";
 import { useState, useEffect } from "react";
+import { useTranslation } from "react-i18next";
 
 const FormMessage = () => {
   const [isClient, setIsClient] = useState(false);
+  const { t } = useTranslation();
 
   useEffect(() => {
     setIsClient(true);
@@ -13,7 +15,7 @@ const FormMessage = () => {
       <form className="w-full flex flex-col justify-center items-center gap-4 text-[15.08px] leading-[21.12px] text-text_color my-20 px-5 lg:px-80">
         <div className="w-full flex justify-center items-center gap-3">
           <div className="w-full flex flex-col justify-center items-start gap-1">
-            <label htmlFor="firstName">Prénom</label>
+            <label htmlFor="firstName">{t("contact.firstname")}</label>
             <input
               type="text"
               name="firstName"
@@ -22,7 +24,7 @@ const FormMessage = () => {
             />
           </div>
           <div className="w-full flex flex-col justify-center items-start gap-1">
-            <label htmlFor="lastName">Nom</label>
+            <label htmlFor="lastName">{t("contact.lastname")}</label>
             <input
               type="text"
               name="lastName"
@@ -32,7 +34,7 @@ const FormMessage = () => {
           </div>
         </div>
         <div className="w-full flex flex-col justify-center items-start gap-1">
-          <label htmlFor="email">Email</label>
+          <label htmlFor="email">{t("contact.email")}</label>
           <input
             type="text"
             name="email"
@@ -41,7 +43,7 @@ const FormMessage = () => {
           />
         </div>
         <div className="w-full flex flex-col justify-center items-start gap-1">
-          <label htmlFor="subject">Sujet</label>
+          <label htmlFor="subject">{t("contact.subject")}</label>
           <input
             type="text"
             name="subject"
@@ -59,7 +61,7 @@ const FormMessage = () => {
           />
         </div>
         <button className="py-4 px-6 border border-border_color mr-auto uppercase">
-          Envoyer
+          {t("contact.submit")}
         </button>
       </form>
     )
