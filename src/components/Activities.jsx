@@ -17,7 +17,7 @@ const Activities = () => {
             </h1>
             <Accordion />
             <Link
-              href="#"
+              href="/custom-booking"
               className="text-[12px] leading-[16.8px] tracking-widest mt-8 px-14 py-4 bg-transparent hover:bg-border_color hover:text-white  border border-border_color uppercase rounded-md transition-all duration-300"
             >
               Réserver une Expérience
