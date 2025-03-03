@@ -38,7 +38,7 @@ const Contact = () => {
             <p className="text-[13px] leading-[30px] uppercase">{`ouvert tous les jours de 13h à 15h30`}</p>
             <div className="text-[13px] leading-[30px] uppercase flex justify-center items-center gap-2">
               <span>Email : </span>
-              <Link href="#">{`reservations@casalallatakekoust.com`}</Link>
+              <Link href="#">{`reservations@casalallatakerkoust.com`}</Link>
             </div>
             <div className="text-[13px] leading-[30px] uppercase flex justify-center items-center gap-2">
               <span>Tel :</span>
@@ -55,7 +55,7 @@ const Contact = () => {
                 <FaInstagramSquare size={25} color="#ec0075" />
               </Link>
               <Link
-                href="mailto:reservations@casalallatakekoust.com"
+                href="mailto:reservations@casalallatakerkoust.com"
                 target="_blank"
               >
                 <FaMailBulk size={25} color="#034fa0" />
