@@ -18,7 +18,7 @@ const Content = () => {
           photos ou pour plus d'informations sur nous, veuillez nous envoyer un
           message en utilisant le formulaire de contact ci-dessous.`}
         </p>
-        <div className="text-[16px] leading-[22.5px] flex justify-center items-center gap-2">
+        <div className="text-[16px] leading-[22.5px] flex flex-col lg:flex-row justify-center items-center gap-2">
           <span>Pour nous envoyer un courriel : </span>
           <Link href="#">{`reservations@casalallatakerkoust.com`}</Link>
         </div>
