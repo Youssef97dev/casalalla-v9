@@ -12,10 +12,10 @@ const images = [
 ];
 
 const imagesMobile = [
-  "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/casalalla-v2/casa_8_crsxvk",
-  "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/casalalla-v2/casa_4_oo2oim",
-  "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/casalalla-v2/wq4bfswckuo0ebocpfhi",
-  "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/casalalla-v2/rx3mzjhhegeuvtkiszdt",
+  "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/CasaLalla-VNor/ijf7z5lbtwayp94imo8s",
+  "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/CasaLalla-VNor/q2nzpahlmh9ptokalfbk",
+  "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/CasaLalla-VNor/hu5d9sovjc4s6m9zviyu",
+  "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/CasaLalla-VNor/jfziloryimjajcbxuj0k",
 ];
 
 const Hero = () => {
@@ -89,7 +89,6 @@ const Hero = () => {
           ))}
 
         {/* Filter */}
-        <div className="absolute inset-0 bg-black bg-opacity-30 backdrop-saturate-150"></div>
 
         {/* Scroll Down Arrow */}
         <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 text-white">

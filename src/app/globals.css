@@ -60,6 +60,49 @@
   font-weight: 600;
   font-style: normal;
 }
+@font-face {
+  font-family: "Baskerville";
+  src: url("./fonts/basker-normal.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Baskerville";
+  src: url("./fonts/basker-light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "BillCorporateNarrow";
+  src: url("./fonts/bill-corporate-narrow.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "BillCorporateNarrow";
+  src: url("./fonts/billcorpnar-book.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "BillCorporateNarrow";
+  src: url("./fonts/billcorpnar-light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "BillCorporateNarrow";
+  src: url("./fonts/billcorpnar-extralight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: "BillCorporateNarrow";
+  src: url("./fonts/billcorpnar-thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+}
 
 :root {
   --text-color: #000000;
@@ -83,7 +126,7 @@ html {
 
 body {
   background-color: var(--bg-body);
-  font-family: "KulimPark", serif;
+  font-family: "BillCorporateNarrow", serif;
 }
 
 /* scroll bar */

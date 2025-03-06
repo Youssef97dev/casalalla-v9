@@ -24,6 +24,7 @@ module.exports = {
       },
       fontFamily: {
         galdeano: ["Galdeano", "serif"],
+        baskerville: ["Baskerville", "serif"],
       },
       screens: {
         "2lg": "1455px", // Example of a custom breakpoint

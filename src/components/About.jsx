@@ -15,19 +15,18 @@ const About = () => {
           className="object-cover w-full h-full md:block hidden"
         />
         <Image
-          src="https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/casalalla-v2/xym2qzij46sg5jaq0cto"
+          src="https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/CasaLalla-VNor/isyw8qmpv2eqyliz7jq4"
           height={1000}
           width={1000}
           className="object-cover w-full h-full md:hidden block"
         />
         {/* Filter */}
-        <div className="absolute inset-0 backdrop-saturate-150 backdrop-contrast-125 backdrop-brightness-90"></div>
       </div>
       <div className="relative w-full min-h-[85vh] bg-[url('/images/texture-1.jpeg')] bg-cover bg-center bg-no-repeat">
-        <div className="absolute inset-0 bg-white opacity-90"></div>
+        <div className="absolute inset-0 bg-white opacity-95"></div>
         <div className="relative w-full p-10">
-          <div className="w-full h-full flex flex-col justify-center items-center gap-1 text-center border border-border_color lg:p-20 p-14">
-            <h1 className="text-[33.184px] leading-[46.4576px] font-galdeano mb-5">
+          <div className="w-full h-full flex flex-col justify-center items-center gap-1 text-center border border-border_color lg:p-20 p-8">
+            <h1 className="text-[30.184px] leading-[46.4576px] font-light uppercase mb-5">
               Casa Lalla Takerkoust
             </h1>
             <p className="text-[13px] leading-[30px] uppercase">

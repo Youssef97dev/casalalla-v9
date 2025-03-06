@@ -25,9 +25,10 @@ const Loader = () => {
           <Navbar />
           <Hero />
           <About />
-          <Gallery />
+
           <Activities />
           <Contact />
+          <Gallery />
           <Footer />
         </div>
       ) : (
