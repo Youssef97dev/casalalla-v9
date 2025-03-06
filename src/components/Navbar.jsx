@@ -114,9 +114,9 @@ const Navbar = () => {
 
         {/* Mobile Navbar */}
         <div className="md:hidden flex justify-between items-center bg-bg_intro px-5 py-1">
-          <div className="text-2xl font-semibold">
+          <Link href="/" className="text-2xl font-semibold">
             <img src="/logo-2.png" className="w-20 h-20" alt="Logo" />
-          </div>
+          </Link>
           <button
             className="text-xl text-white"
             onClick={() => setIsOpen(!isOpen)}
