@@ -15,7 +15,7 @@ const imagesMobile = [
   "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/CasaLalla-VNor/ijf7z5lbtwayp94imo8s",
   "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/CasaLalla-VNor/q2nzpahlmh9ptokalfbk",
   "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/CasaLalla-VNor/hu5d9sovjc4s6m9zviyu",
-  "https://res.cloudinary.com/dz7wroord/image/upload/f_auto,q_auto/v1/CasaLalla-VNor/jfziloryimjajcbxuj0k",
+  "https://res.cloudinary.com/dz7wroord/image/upload/c_crop,g_south_east,h_6000,w_3000/CasaLalla-VNor/drefbaza84g3qdz1gkwj",
 ];
 
 const Hero = () => {
